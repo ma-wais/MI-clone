@@ -1,0 +1,26 @@
+.preNav {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: aliceblue;
+}
+.preNav >div {
+    padding: 0vmax 4vmax;
+    display: flex;
+    align-items: center;    
+}
+.preNav > div > span {
+    color: rgba(180, 180, 180, 0.65);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+.preNav > div >a {
+    color: rgb(184, 178, 178);
+    font-size: 0.9vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin: 1vmax;
+    text-decoration: none;
+}
+
+

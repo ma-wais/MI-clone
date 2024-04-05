@@ -1,0 +1,52 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4vmax;
+    background-color: rgb(43, 42, 42);
+    color: aliceblue;
+}
+.footer >div {
+    margin: 1vmax;
+    display: flex;
+    flex-direction: column;
+}
+.footer >div >a {
+    text-decoration: none;
+    padding: 0.2vmax;
+    color: rgb(152, 154, 156);
+    font-size: 1vmax;
+}
+.footer >div >a:hover {
+    color: azure;
+}
+.footer >div:last-child> div {
+    width: 50%;
+    font-size: 0.8vmax;
+    color:rgb(191, 193, 196);
+    padding-top: 20px;
+}
+.footer >div:last-child > button {
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 0.6vmax 0;
+    background-color:rgb(69, 70, 71);
+    color: aliceblue;
+    transition: all 0.4s;
+    font-weight: 400;
+}
+.footer >div:last-child > button:hover {
+    background-color: aliceblue;
+    color: rgb(69, 70, 71);
+    transition: all 0.4s;
+}
+
+.footerBorder {
+    background-color: rgb(43, 42, 42);
+}
+.footerBorder >div {
+    color: rgb(149, 152, 155);
+    margin: 0vmax 2vmax 0 2vmax;
+    padding: 1vmax 0 1vmax 0 ;
+    border-top: 1px solid rgb(83, 79, 79);
+}
